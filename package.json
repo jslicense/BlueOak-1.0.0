@@ -1,0 +1,20 @@
+{
+  "name": "blueoak-1.0.0",
+  "description": "Plaintext of The Blue Oak Model License 1.0.0",
+  "version": "0.0.0",
+  "files": [
+    "README.md",
+    "BlueOak-1.0.0.json",
+    "package.json"
+  ],
+  "keywords": [
+    "Blue Oak Council",
+    "jslicense",
+    "license"
+  ],
+  "main": "BlueOak-1.0.0.json",
+  "repository": "jslicense/BlueOak-1.0.0",
+  "scripts": {
+    "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('BlueOak-1.0.0.md').toString()))\" > BlueOak-1.0.0.json"
+  }
+}
