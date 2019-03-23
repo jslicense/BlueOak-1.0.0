@@ -1,7 +1,7 @@
 {
   "name": "blueoak-1.0.0",
   "description": "Plaintext of The Blue Oak Model License 1.0.0",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "files": [
     "README.md",
     "BlueOak-1.0.0.json",
